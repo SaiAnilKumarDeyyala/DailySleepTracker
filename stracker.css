@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.body {
+	margin: 0;
+	color: red;
+}
+
+
+header {
+	background: url("sleep.jpg");
+	height: 400px;
+	font-family: 'Staatliches', cursive;
+}
+
+button {
+	color: white;
+	border: none;
+	background: none;
+}
+
+.nav-bar {
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+	color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.menu {
+	color: white;
+	float: right;
+	display: flex;
+	margin-right: 150px;
+	margin-top: 20px;
+}
+
+#addBtn:hover {
+	color: yellow;
+}
+
+.menu h1 {
+	padding-left: 20px;
+}
+.quote {
+	font-family: 'Caveat', cursive;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	left: 200px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tAdder {
+  display: none;  /*Hidden by default*/ 
+  position: fixed; /* Stay in place 
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.add-time {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.Stable-wrapper {
+	margin: 20px 20px 20px 20px;
+	background-color: orangered;
+	border-radius: 20px;
+	box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.76);
+	-webkit-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.76);
+	-moz-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.76);
+}
+
+#show {
+	background-color: skyblue;
+	width: 100%;
+
+}
+
+.t-heading {
+	color: white;
+	font-family: 'Staatliches', cursive;
+}
+
+th {
+	font-size: 20px;
+}
+
+#headT {
+	font-family: 'Staatliches', cursive;
+}
+
+#btna {
+	margin-top: 10px;
+}
+
+#btn {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
