@@ -71,29 +71,3 @@ document.getElementById("btn").addEventListener("click", function(event){
   n++;
   x++;
 });
-
-// function AddRow(){
-
-//   var AddRown = document.getElementById('show');
-//   var NewRow = AddRown.insertRow(n);
-
-//   list1[x] = document.getElementById("date").value;
-//   startTime = document.getElementById("bedTime").value;
-//   endTime = document.getElementById("wakeUpTime").value;
-  
-
-//   var cel1 = NewRow.insertCell(0);
-//   var cel2 = NewRow.insertCell(1);
-//   var cel3 = NewRow.insertCell(2);
-//   var cel4 = NewRow.insertCell(3);
-
-  
-
-//   cel1.innerHTML = list1[x];
-//   cel2.innerHTML = startTime;
-//   cel3.innerHTML = endTime;
-//   cel4.innerHTML = diff(startTime,endTime);
-
-//   n++;
-//   x++;
-// }
