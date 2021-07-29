@@ -2,6 +2,7 @@ var date = [];
 var startTime = [];
 var endTime = [];
 
+
 var timeAdder = document.getElementById('timeAdder');
 var btn = document.getElementById('addBtn');
 var span = document.getElementsByClassName("close")[0];
@@ -61,7 +62,7 @@ document.getElementById("btn").addEventListener("click", function(event){
 
   
 
-  cel1.innerHTML = list1[x];
+  cel1.innerHTML = date;
   cel2.innerHTML = startTime;
   cel3.innerHTML = endTime;
   cel4.innerHTML = diff(startTime,endTime);
