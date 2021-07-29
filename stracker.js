@@ -1,7 +1,6 @@
-var list1 = [];
-var list2 = [];
-var list3 = [];
-var list4 = [];
+var date = [];
+var startTime = [];
+var endTime = [];
 
 var timeAdder = document.getElementById('timeAdder');
 var btn = document.getElementById('addBtn');
@@ -36,7 +35,6 @@ function diff(start, end) {
     diff -= minutes * (1000 * 60);
     var seconds = Math.floor(diff / 1000);
 
-    // If using time pickers with 24 hours format, add the below line get exact hours
     if (hours < 0)
        hours = hours + 24;
 
@@ -51,7 +49,7 @@ document.getElementById("btn").addEventListener("click", function(event){
   var AddRown = document.getElementById('show');
   var NewRow = AddRown.insertRow(n);
 
-  list1[x] = document.getElementById("date").value;
+  date = document.getElementById("date").value;
   startTime = document.getElementById("bedTime").value;
   endTime = document.getElementById("wakeUpTime").value;
   
